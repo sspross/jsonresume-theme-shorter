@@ -329,10 +329,10 @@
 	</section>
 	{{/if}}
 
-{{#if resume.nationality.length}}
+{{#if resume.nationalities.length}}
 	<section id="nationality">
 		<h2>Nationality</h2>
-		{{#each resume.nationality}}
+		{{#each resume.nationalities}}
 		<div class="item">
 			{{#if nationality}}
 			<span class="nationality">
