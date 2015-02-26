@@ -5,7 +5,7 @@ function render(resume) {
 	var css = fs.readFileSync(__dirname + "/style.css", "utf-8");
 	var template = fs.readFileSync(__dirname + "/resume.template", "utf-8");
 	// var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-	var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+	var months = ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'];
 
 	// Nicer dates
 	Handlebars.registerHelper('date', function(date) {

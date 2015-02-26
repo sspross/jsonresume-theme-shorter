@@ -24,8 +24,8 @@
 	{{#resume.basics}}
 	<section class="heading">
 		<header>
-			<h1{{#if picture}} style="height: 80px;"{{/if}}>{{name}}</h1>
-			{{#if picture}}<img alt="64x64" src="{{picture}}" style="position: absolute; top: 0; right: 0;">{{/if}}
+			{{#if picture}}<img alt="64x64" src="{{picture}}" style="float: right;">{{/if}}
+			<h1>{{name}}</h1>
 			<div class="contact">
 				{{#if email}}
 				<span class="detail">
@@ -76,7 +76,7 @@
 
 	{{#if resume.work.length}}
 	<section class="experience">
-		<h2>Experience</h2>
+		<h2>Berufserfahrung</h2>
 		{{#each resume.work}}
 		<section class="item">
 			<header>
@@ -101,7 +101,7 @@
 			</span>
 			{{else}}
 			<span class="endDate">
-				- Present
+				- heute
 			</span>
 			{{/if}}
 
@@ -172,7 +172,7 @@
 
 	{{#if resume.education.length}}
 	<section id="education">
-		<h2>Education</h2>
+		<h2>Ausbildung</h2>
 		{{#each resume.education}}
 		<div class="item">
 			<header>
@@ -247,7 +247,7 @@
 
 	{{#if resume.awards.length}}
 	<section id="awards">
-		<h2>Awards</h2>
+		<h2>Auszeichnungen</h2>
 		{{#each resume.awards}}
 		<div class="item">
 			{{#if title}}
@@ -277,7 +277,7 @@
 
 	{{#if resume.publications.length}}
 	<section id="publications">
-		<h2>Publications</h2>
+		<h2>Publikationen</h2>
 		{{#each resume.publications}}
 		<div class="item">
 			{{#if name}}
@@ -312,7 +312,7 @@
 
 	{{#if resume.languages.length}}
 	<section id="languages">
-		<h2>Languages</h2>
+		<h2>Sprachen</h2>
 		{{#each resume.languages}}
 		<div class="item">
 			{{#if language}}
@@ -330,9 +330,9 @@
 	</section>
 	{{/if}}
 
-{{#if resume.nationalities.length}}
+	{{#if resume.nationalities.length}}
 	<section id="nationality">
-		<h2>Nationality</h2>
+		<h2>Nationalitäten</h2>
 		{{#each resume.nationalities}}
 		<div class="item">
 			{{#if nationality}}
@@ -347,7 +347,7 @@
 
 	{{#if resume.interests.length}}
 	<section id="interests">
-		<h2>Interests</h2>
+		<h2>Interessen</h2>
 		{{#each resume.interests}}
 		<div class="item">
 			{{#if name}}
@@ -370,7 +370,7 @@
 
 	{{#if resume.references.length}}
 	<section id="references">
-		<h2>References</h2>
+		<h2>Referenzen</h2>
 		{{#each resume.references}}
 		<div class="item">
 			{{#if reference}}

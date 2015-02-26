@@ -1,7 +1,7 @@
 {
   "name": "jsonresume-theme-sshorter",
-  "version": "0.1.0",
-  "description": "A simple theme for jsonresume for my cv, improved upon the work of Graeme Maciver and Danial.",
+  "version": "0.1.6",
+  "description": "A simple, pdf export focues german theme for jsonresume.org (improved upon the work of Graeme Maciver and Danial)",
   "author": "sspross",
   "repository": {
     "type": "git",

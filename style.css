@@ -34,7 +34,7 @@ blockquote {
 }
 
 /* Resume heading */
-.heading header { 
+.heading header {
 
 }
 
@@ -52,6 +52,10 @@ blockquote {
 
 .heading header .contact .detail {
 	margin: 0 1em 0 0;
+}
+
+.heading img {
+	border-radius: 50%;
 }
 
 .profile {
