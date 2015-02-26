@@ -1,11 +1,11 @@
 {
-  "name": "jsonresume-theme-shorter",
-  "version": "0.1.6",
-  "description": "A simple theme for jsonresume for my cv, improved upon the work of Graeme Maciver.",
-  "author": "Danial",
+  "name": "jsonresume-theme-sshorter",
+  "version": "0.1.0",
+  "description": "A simple theme for jsonresume for my cv, improved upon the work of Graeme Maciver and Danial.",
+  "author": "sspross",
   "repository": {
     "type": "git",
-    "url": "https://github.com/danialt/jsonresume-theme-shorter"
+    "url": "https://github.com/sspross/jsonresume-theme-shorter"
   },
   "license": "MIT",
   "dependencies": {
