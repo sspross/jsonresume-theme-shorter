@@ -12,7 +12,6 @@
 	</style>
 	<style media="print">
 		body { font-size: 12px; }
-		@page { margin: 320px 50px 80px 50px; }
 		.item { page-break-inside: avoid; }
 	</style>
 
