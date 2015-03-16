@@ -1,9 +1,8 @@
-body {
+body, html {
 	background: #fff;
 	font: 16px 'Open Sans' Helvetica, Arial, sans-serif;
 	line-height: 1.4;
-	margin: 0 0;
-	margin-bottom: 100px;
+	margin: 1em 0;
 }
 em {
 	color: #999;
@@ -18,18 +17,15 @@ a {
 	text-decoration: none;
 	font-weight: 400;
 }
-ul {
-	margin-bottom: 0;
-}
 section {
-	margin: 1em 0 2em;
+	margin: 2em 0 2em;
 }
 blockquote {
 	margin: 0;
 	margin-bottom: 1em;
 }
 #resume {
-	margin: 2em 2em 2em 2.5em;
+	margin: 0 2em 2em 2.5em;
 	max-width: 760px;
 }
 
@@ -56,6 +52,7 @@ blockquote {
 
 .heading img {
 	border-radius: 50%;
+	max-width: 120px;
 }
 
 .profile {

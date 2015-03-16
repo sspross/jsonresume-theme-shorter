@@ -12,6 +12,8 @@
 	</style>
 	<style media="print">
 		body { font-size: 12px; }
+		@page { margin: 320px 50px 80px 50px; }
+		.item { page-break-inside: avoid; }
 	</style>
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
@@ -24,7 +26,7 @@
 	{{#resume.basics}}
 	<section class="heading">
 		<header>
-			{{#if picture}}<img alt="64x64" src="{{picture}}" style="float: right;">{{/if}}
+			{{#if picture}}<img src="{{picture}}" style="float: right;">{{/if}}
 			<h1>{{name}}</h1>
 			<div class="contact">
 				{{#if email}}
@@ -78,7 +80,7 @@
 	<section class="experience">
 		<h2>Berufserfahrung</h2>
 		{{#each resume.work}}
-		<section class="item">
+		<section class="item"{{#if style}} style="{{style}}"{{/if}}>
 			<header>
 				{{#if company}}
 					<h3 class="name">{{company}}</h3>
